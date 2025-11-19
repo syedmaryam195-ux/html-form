@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> complex html structure demo</title>
+    <style>  
+        body{
+            font-family: Arial, sans-serif;
+            margin:20px;
+        }
+        fieldset{
+            margin-bottom:20px;
+            padding: 10px;
+        }
+        legend{
+            font-weight: bold;
+        }
+     table   { 
+        width:100%;
+        border-collapse:collapse;
+        margin: top 20px;
+     }
+     table,th,td{
+        border:1px solid #333;
+        padding:10px;
+     }
+     th{
+        background:#f2f2f2;
+        text-align:centre;
+     }
+     td input[type="text"]
+     td input[type="email"]{ 
+        width: 90%;
+        padding: 5px;}
+        .centre{
+            text-align: center;
+            font-weight: bold;
+        }
+        .footer{
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>  
+    <h1> Complex HTML Structure demo</h1>
+    <p> A sample page with tables ,from,and nested lists</p>
+    <!_----------------- registration form ------->>
+    <h2> Registration Form</h2>
+    <form> 
+        <fieldset>
+            <legend> Personal Information</legend>
+            <label>="full name"> First Name:</label>
+            <input type="text">
+            placeholder=Enter your name<br><br>
+            <label>  Email Address:</label>
+            <input> type="email"<br><br>
+            <label> Date of birth </label>:
+            <input type="text" place holder="mm/dd/yyyy"<br><br>
+            <label> Gender:</label>
+            <select>
+                <option>Male</option>
+                <option> female</option
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Account detail</legend>
+            <label> username</label>
+            <input type="text"><br><br>
+            <label>Password:</label>
+            <input type="password"<br><br>
+            <input type="checkbox">Accept terms and conditions</fieldset>
+            <button type="submit"> submit</button>
+    </form>
+    <hr>
+    <!------------------ complex table ------->
+    <h2> Advanced complex table structure</h2>
+    <table>
+        <tr> 
+            <th rowspan="2"> Department</th>
+            <th colspan="2">Employee detail</th>
+            <th rowspan="2">performance</th>
+            <th rowspan="2"action </th>
+        </tr>
+        <tr> 
+            <th> Name</th>
+            <th>email</th>
+        </tr>
+        <!--------------------------- Development section-->
+        <tr> 
+            <td> Development</td>
+            <td><b>Jhon doe</b><br> Team lead</td>
+            <td>jhon.doe@example.com</td>
+            <td>
+                <b>q1 progress</b><br>
+                projects: 4<br>
+                rating: 8/10
+            </td>
+            <td>
+                <button> Edit</button><br>
+                <button> remove</button>
+            </td>
+
+        </tr>    
+        <td><b>sara smith</b> <br> senior developer</td>
+        <td> sarah@example.com</td>  
+        <td> 
+            .on track<br>
+            .attends daily standups<br>
+            .completed95%taskd
+        </td>
+        <td>
+            <button> Edit</button></td></tr>
+            <tr>
+                <td>input type ="text">
+            placeholder="Enter new name"></td>  
+            <td><input type ="email"
+            placeholder="Enter email"></td>
+            <td></td>
+            <td><button>save</button></td>
+            </tr>
+            <!------------------hr section------->
+            <tr>
+                <td rowspan="2"> Human resources</td>
+                <td> ayesha khan</td>
+                <td>ayesha@company.com</td>
+                <td>
+                    <b>interviews:</b>12
+                    conducted<br>
+                    <b> status:</b><i >good</i>
+            </td>
+            </tr>
+            <tr> 
+                <td><input type="text"
+                placeholder="input new hr"></td>
+                <td><input type="email"
+                placeholder="hr@example.com"></td>
+                <td> 
+                    <select>
+                        <optiion>active</optiion>
+                        <option>inactive</option>
+                    </select>
+                </td>
+                <td><button> save</button></td>
+                </tr>
+                <tr>
+                    <td colspan="5"class="centre">
+                        total department:2|total employess listed:4
+                    </td>
+                </tr>
+                </table>
+                <p class="footer">2025 COMPLEX HTML DEMO</p>
+                </body>
+                </html>
+                
+    </table>
+                
+
+
+            
+            
+
+            </td>
+
+</body>
+
+
+
+
+
+
+        
+    
+     
+
+     
+    
+
+
+</html>
